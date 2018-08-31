@@ -1,0 +1,30 @@
+﻿<Page
+    x:Class="MobileApplication2.Camera"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MobileApplication2"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" FontFamily="Arial Black" FontWeight="Bold">
+
+    <Grid Background="#bfbfbf">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="50*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Design element of the page which includes a Logo, Colour, Font Styles and Buttons. -->
+        <StackPanel Orientation="Horizontal" Margin="0,30,0,0" Grid.Row="0" HorizontalAlignment="Center">
+            <Button x:ConnectionId='3' x:Name="TakePhotoButton" Content="Take Photo" Margin="0,0,10,0"                         Background="Red" Foreground ="White" Height="80" Width="150" FontSize="20"/>
+            <Button x:ConnectionId='4' Content="Return Home" Margin="0,0,10,0"                Background="Red" Foreground ="White" Height="80" Width="150" FontSize="20"/>
+        </StackPanel>
+
+        <!-- This is an image/ symbol for the Camera Page -->
+        <Grid x:ConnectionId='1' x:Name="Output" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1" Margin="30,30">
+            <Image x:ConnectionId='2' x:Name="TakePhoto" Source="https://cdn0.iconfinder.com/data/icons/Android-R2-png/512/Camera-Android-R.png" Stretch="Uniform"/>
+        </Grid>
+
+    </Grid>
+
+</Page>
+
