@@ -9,7 +9,7 @@ A UWP application that allows the user to check their location, take a photo and
 1. Create blank visual studio UWP application
 2. Right click on project folder
 3. Git init
-4. Git remote add origin https://github.com/ChristianOlim/MobileApplication3rdYr/tree/master/Desktop/G00334621.git
+4. Git remote add origin 
 5. Git pull origin master
 
 # Question
